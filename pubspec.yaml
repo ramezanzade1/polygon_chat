@@ -15,6 +15,9 @@ dependencies:
     sdk: flutter
   web3dart: ^2.5.0
   http: ^0.13.5
+  responsive_builder: ^0.7.0
+  flutter_bloc: ^8.1.1
+  auto_size_text: ^3.0.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -44,9 +47,14 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/onboarding.png
+    - assets/images/2.0x/onboarding2x.png
+    - assets/images/3.0x/onboarding3x.png
+    - assets/images/close_black.png
+    - assets/images/2.0x/close_black2x.png
+    - assets/images/3.0x/close_black3x.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
